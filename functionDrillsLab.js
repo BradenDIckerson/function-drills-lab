@@ -226,9 +226,9 @@ console.log (namesArr)
 */
 
 function thatsOdd(num){
-if ( num % 2)
+if ( num % 2 === 0){
 return 'Thats not odd!'
-else 
+}else 
 return 'Thats odd indeed!'
 }
 let oddChecker = thatsOdd(43)
